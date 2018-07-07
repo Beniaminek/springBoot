@@ -9,8 +9,8 @@ import org.springframework.stereotype.Repository;
 import com.benek.springBoot.Entity.Student;
 
 @Repository
-@Qualifier("otherData")
-public class OtherStudentDaoImpl implements StudentDao{
+@Qualifier("mongoData")
+public class mongoStudentDaoImpl implements StudentDao{
 	
 	
 
